@@ -1,0 +1,10 @@
+.listed-type {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+
+.para {
+  margin: 10px;
+  color: #475569;
+}
