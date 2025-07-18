@@ -6,12 +6,12 @@ const CourseItem = props => {
   const {logoUrl, name, id} = details
 
   return (
-    <Link to={`/courses/${id}`}>
-      <li className="listed-type">
+    <li className="listed-type">
+      <Link to={`/courses/${id}`}>
         <img src={logoUrl} alt={name} />
         <p className="para">{name}</p>
-      </li>
-    </Link>
+      </Link>
+    </li>
   )
 }
 

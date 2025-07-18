@@ -71,14 +71,14 @@ class Home extends Component {
       />
       <h1>Oops! Something Went Wrong</h1>
       <p>We cannot seem to find the page you are looking for.</p>
-      <button type="button" onClick={this.getCourseData()}>
+      <button type="button" onClick={this.getCourseData}>
         Retry
       </button>
     </div>
   )
 
   loadingView = () => (
-    <div className="products-details-loader-container">
+    <div className="products-details-loader-container" data-testid="loader">
       <Loader type="ThreeDots" color="#0b69ff" height="50" width="50" />
     </div>
   )
